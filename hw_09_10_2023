@@ -1,0 +1,5 @@
+   0 vi
+   1 df -h | head -3 >> /tmp/file.txt 
+   2 chmod u-r,g+w,o+x /tmp/file.txt 
+   3 ls -l /tmp/file.txt 
+   4 history >> hw_09_10_2023
