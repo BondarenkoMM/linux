@@ -1,0 +1,9 @@
+#!/bin/bash
+cd
+*/15 * * * */taskMAKSYM_BONDARENKO.sh
+for i in{1..10}
+do
+number=$((i * 100))
+date=$(date +'%Y.%m.%d')
+touch "${date}"
+done
