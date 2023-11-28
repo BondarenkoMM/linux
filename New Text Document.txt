@@ -5,5 +5,5 @@ for i in{1..10}
 do
 number=$((i * 100))
 date=$(date +'%Y.%m.%d')
-touch "${date}"
+touch "${number}.${date}"
 done
